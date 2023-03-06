@@ -27,12 +27,35 @@ if (ano <= 2027){
 
 
 
-
 // Diferença entre == e === (verificação estrita)
-let idade = "20";
+let idadeTeste = "20";
 
-if(idade === 20) {
-	console.log("O dado informado foi do tipo correto")	
+if(idadeTeste === 20) {
+	console.log("O dado informado foi do tipo correto");
 } else{
-	console.log("O dado informado não foi do tipo correto")
+	console.log("O dado informado não foi do tipo correto");
+}
+
+
+// Multicondicionais II
+let cargo = "diretor";
+
+if (cargo === "secretário" || cargo === "assistente"){
+	
+	console.log("Este cargo informado receberá auxílio, por se enquadrar no requisito: secretário ou assistente");
+} else{
+	console.log("Este cargo informado não receberá auxílio");
+	
+}
+
+// Multicondicionais &&
+let saborPicole = "uva";
+let precoPicole = 5;
+
+if (saborPicole === "uva" && precoPicole <= 8.50){
+	
+	console.log("Comprarei o picolé");
+} else{
+	console.log("Não comprarei o picolé");
+	
 }
