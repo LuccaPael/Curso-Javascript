@@ -5,4 +5,7 @@ function fullName (name, surname) {
     return `${name} ${surname}`;
 }
 
+// console.log(fullName ("name", "surname"));
+
+let complete = fullName ("Lucca", "Pael");
 
