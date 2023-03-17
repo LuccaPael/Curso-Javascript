@@ -11,9 +11,6 @@ numeros.push(50);
 console.log(numeros);
 
 
-// Remover o último elemento do array:  nomeArray.pop('elemento')
-// Remover o primeiro elemento do array:  nomeArray.shift('elemento')
-
 
 
 tamanhoArray = numeros.length;
