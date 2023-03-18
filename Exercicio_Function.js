@@ -4,20 +4,16 @@
 
 
 
-let numeros = [10, 20, 30, 40];
-
-// Adicionando elemento no array:  numeros.push('elemento')
-numeros.push(50);
-console.log(numeros);
+const numeros = [10, 20, 30, 40, 50];
 
 
 
 
-tamanhoArray = numeros.length;
+let tamanhoArray = numeros.length;
 console.log(tamanhoArray);
 
 function calculaMedia(numeros) {
-    tamanhoArray = numeros.length;
+    for()
 
 
 
