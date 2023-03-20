@@ -13,7 +13,10 @@ let tamanhoArray = numeros.length;
 console.log(tamanhoArray);
 
 function calculaMedia(numeros) {
-    for()
+    for (let index = 0; index < tamanhoArray; index++) {
+        const element = numeros[index];
+        
+    }
 
 
 
