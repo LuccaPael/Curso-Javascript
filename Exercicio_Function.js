@@ -13,8 +13,8 @@ let tamanhoArray = numeros.length;
 console.log(tamanhoArray);
 
 function calculaMedia(numeros) {
-    for (let index = 0; index < tamanhoArray; index++) {
-        const element = numeros[index];
+    for (let i = 0; i < tamanhoArray; i++) {
+        let soma = numeros[i];
         
     }
 
