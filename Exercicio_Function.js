@@ -13,15 +13,16 @@ let tamanhoArray = numeros.length;
 console.log(tamanhoArray);
 
 function calculaMedia(numeros) {
+    let posicao = 0;
+    let soma = 0;
     for (let i = 0; i < tamanhoArray; i++) {
-        let soma = numeros[i];
-
-        let somafinal = soma
-        
+        posicao = numeros[i];
+        soma += posicao;
     }
 }
 
-// let media = calculaMedia(numeros)
-// console.log(media)
+
+let media = calculaMedia(numeros)
+console.log(media)
 
 
