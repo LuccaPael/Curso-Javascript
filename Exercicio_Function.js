@@ -19,11 +19,13 @@ function calculaMedia(numeros) {
         posicao = numeros[i];
         soma += posicao;
     }
+    
+    
     return soma
 }
 
 
-let media = calculaMedia(numeros);
+let media = (calculaMedia(numeros))/tamanhoArray;
 console.log(media)
 
 
