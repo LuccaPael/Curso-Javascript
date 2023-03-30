@@ -20,7 +20,6 @@ function calculaMedia(numeros) {
         soma += posicao;
     }
     
-    
     return soma
 }
 
