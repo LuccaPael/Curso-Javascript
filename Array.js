@@ -54,8 +54,8 @@ let fruits = ['Maçã', 'Uva', 'Laranja'];
 console.length(fruits);
 
 //Alterar elemento Array
-let fruits[1] = "Pêra";
-let fruits[fruits.lenght - 1] = "Abacaxi";
+fruits [1] = "Pêra";
+fruits[fruits.lenght - 1] = "Abacaxi";
 console.length(fruits);
 
 
