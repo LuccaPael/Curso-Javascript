@@ -81,3 +81,9 @@ console.length(fruits);
     - includes()     → Verifica se um array contém um item determinado.
 
     */
+
+
+//Acessar array dentro de array
+let lista = ['lucca', ['x', 'y']];
+
+console.log(lista[1][0])
