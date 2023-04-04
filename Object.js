@@ -21,9 +21,6 @@ console.log(personagem.roupas[1]);
 
 
 
-
-
-
 //Objeto - Alteração
 let aluno = {
     nome: 'José',
@@ -44,3 +41,23 @@ let aluno = {
 aluno.nome = 'Pedro';
 aluno.roupas.push('verde');
 console.log(aluno.roupas[2]);
+
+
+
+
+//Objeto - Array
+let piloto = {
+    nome: 'Hamilton',
+    idade: 33,
+
+    //objetos dentro de um array
+    carros: [
+        {modelo: 'Mercedes', cor:'preto'},  
+        {modelo: 'Ferrari', cor:'vermelho'}
+    ]
+}
+
+console.log(piloto.carros[0].modelo);
+console.log(piloto.carros[0].cor);
+console.log(piloto.carros[1].modelo);
+console.log(piloto.carros[1].cor);
