@@ -1,6 +1,6 @@
 let cores = ['preto', 'branco', 'azul', 'vermelho'];
 let frutas = ['maçã', 'laranja', 'banana', 'uva'];
-let times = ['Palmeiras', 'Flamengo', 'Santos']
+let times = ['Palmeiras', 'Flamengo', 'Santos'];
 
 
 //Primeiro For:
