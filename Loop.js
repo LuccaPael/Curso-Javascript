@@ -27,12 +27,12 @@ for (let time in times) {
 let passaportes = [
     {nome: 'Carlos', pais: 'Brasil'},
     {nome: 'Peter', pais: 'EUA'},
-    {nome: 'Mario', país: 'Itália'}
+    {nome: 'Mario', pais: 'Itália'}
 ];
 
 
 for (let passaporte of passaportes){
-    console.log(passaporte.nome);
+    console.log(`Nome: ${passaporte.nome} - Origem do Passaporte: ${passaporte.pais}`);
 }
 
 
