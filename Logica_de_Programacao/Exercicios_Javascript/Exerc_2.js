@@ -10,6 +10,6 @@ var square = function(x) {
 };
 
 // Então, usa essas funções com os métodos Array para calcular a média e o desvio padrão
-var data = [1,1,3,5,5];
-var mean = data.reduce(sum)/data.length;
-var deviations = data.map(function(x) { return x-mean; });
+let data = [1,1,3,5,5];
+let mean = data.reduce(sum)/data.length;
+let deviations = data.map(function(x) { return x-mean; });
